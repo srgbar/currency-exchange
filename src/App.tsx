@@ -5,7 +5,7 @@ import CurrencyExchangeContainer from "./containers/CurrencyExchangeContainer/Cu
 function App() {
     return (
         <div className="container">
-            <CurrencyExchangeContainer />
+            <CurrencyExchangeContainer/>
         </div>
     );
 }

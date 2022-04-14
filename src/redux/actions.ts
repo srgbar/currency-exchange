@@ -13,10 +13,10 @@ export type ChangeCurrencyFieldType = {
 };
 
 export const ChangeCurrencyFieldAC = (amountOfBYN: string, amountOfCurrency: string): ChangeCurrencyFieldType => {
-   return {
-       type: ACTIONS_TYPE.CHANGE_CURRENCY_FIELD_TYPE,
-       payload: { amountOfBYN, amountOfCurrency }
-   }
+    return {
+        type: ACTIONS_TYPE.CHANGE_CURRENCY_FIELD_TYPE,
+        payload: {amountOfBYN, amountOfCurrency}
+    }
 };
 
 export type ChangeAction = {
