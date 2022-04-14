@@ -1,0 +1,1 @@
+App Currency exchange BYN to USD / EUR / RUR
